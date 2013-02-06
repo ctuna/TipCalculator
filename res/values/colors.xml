@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_brown">#564545</color>
+    <color name = "gradient_edge">#CCe7ddc6</color>
+    <color name = "gradient_center">#CCf8f2e3</color>
+    
+    <color name = "submit_gradient_edge">#CC8d7c7c</color>
+    <color name = "submit_gradient_center">#CCaa9d9d</color>
+    <color name = "calc_screen">#bbc7b5</color>
+    <color name = "background"> #bbc7b5</color>
+</resources>

@@ -1,0 +1,232 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".DisplayTipActivity" >
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:gravity="left"
+	android:orientation="horizontal">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="left"
+	android:orientation="vertical"
+	android:paddingBottom="16dp">
+
+	<TextView
+	    android:id="@+id/tip_percent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="4"
+	    android:gravity="bottom"
+	    android:textColor="@android:color/white"
+	    android:textSize="50sp" />
+    
+	<TextView
+	    android:gravity="bottom"
+	    android:id="@+id/tip_percent_label"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="4"
+	    android:text="@string/axis"
+	    android:textColor="@color/button_brown"
+	    android:textSize="50sp" />
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_height="fill_parent"
+        android:layout_width="50dp" >
+		
+    </FrameLayout>
+	<android.widget.VerticalSeekBar
+  	android:id="@+id/seekBar1"
+  	android:layout_width="wrap_content"
+  	android:layout_height="200dp"
+  	android:max="50"
+  />
+	
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+		
+    </FrameLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+	android:orientation="horizontal"
+	android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingBottom="50dp"
+    android:gravity="left">
+	
+	<TextView
+	    android:id="@+id/split_between"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="split between: "
+	    android:textColor="@color/button_brown"
+	    android:textSize="35sp" />
+	
+	    <FrameLayout
+        android:id="@+id/split_between_space"
+        android:layout_height="fill_parent"
+        android:layout_width="10dp" >
+		
+    	</FrameLayout>
+	
+	
+	<TextView
+	    android:id="@+id/num_splitters"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text=" 1 "
+	    android:textColor="@android:color/white"
+	    android:textSize="40sp" />
+		<FrameLayout
+        android:id="@+id/split_between_space2"
+        android:layout_height="fill_parent"
+        android:layout_width="40dp" >
+		
+    	</FrameLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+	android:orientation="vertical">  
+
+      <Button
+          android:background="@drawable/keypad_button"
+          android:id="@+id/buttonPlus"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="4"
+          android:minWidth="95dip"
+          android:text="+" />
+            
+      <Button
+          android:background="@drawable/keypad_button"
+          android:id="@+id/buttonMinus"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="4"
+          android:minWidth="95dip"
+          android:text="-" />
+
+      </LinearLayout>
+	
+	
+	</LinearLayout>
+	
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" >
+		
+    </FrameLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+	android:orientation="horizontal"
+	android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:gravity="left">
+
+		<TextView
+		    android:id="@+id/you_tip"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/you_tip_text"
+		    android:textColor="@color/button_brown"
+		    android:textSize="35sp" />
+		
+	    <FrameLayout
+        android:id="@+id/split_between_space"
+        android:layout_height="fill_parent"
+        android:layout_width="40dp" >		
+    	</FrameLayout>
+    	
+<TextView
+    android:id="@+id/tip_amount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:textSize="35sp" />
+
+</LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" >
+		
+    </FrameLayout>    
+    
+    
+    
+    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayTipActivity" 
+	android:orientation="horizontal"
+	android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:gravity="left">
+
+		<TextView
+		    android:id="@+id/you_pay"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/you_pay_text"
+		    android:textColor="@color/button_brown"
+		    android:textSize="35sp" />
+		
+	    <FrameLayout
+        android:id="@+id/split_between_space"
+        android:layout_height="fill_parent"
+        android:layout_width="20dp" >		
+    	</FrameLayout>
+    	
+<TextView
+    android:id="@+id/pay_amount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:textSize="50sp" />
+
+</LinearLayout>
+	
+
+
+</LinearLayout>

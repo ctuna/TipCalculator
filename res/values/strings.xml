@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tippy Tipper</string>
+    <string name="menu_settings">Settings</string>
+    <string name="edit_amount">cost</string>
+    <string name="button_send">calculate tip</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_tip">DisplayTipActivity</string>
+	<string name="buttonCalculate_text">calc. tip</string>
+	<string name="max_seek_value">50</string>
+	<string name="you_pay_text">your total bill:</string>
+	<string name="axis">tip</string>
+	<string name="instructions">your bill amount:</string>
+	<string name="you_tip_text">your tip:</string>
+</resources>
